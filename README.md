@@ -2,7 +2,7 @@
 1) initalise a git project 2) run `bash /path/to/node.sh` from within your project folder.  
 
 This script will add the following skeleton structure to your project folder: 
-
+```
 +
 | - public
 | | - index.html
@@ -17,7 +17,7 @@ This script will add the following skeleton structure to your project folder:
 | | - router.js
 | - .env
 | - .travis.yml
-
+```
 It will also run `npm init -y` and install the *latest versions* of some npm packages: 
 
 **Installs as dependencies:** request, mime-types, dotenv
